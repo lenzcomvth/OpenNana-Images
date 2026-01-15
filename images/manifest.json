@@ -1,5 +1,15 @@
 [
   {
+    "id": "img_1768468148468",
+    "prompt": "Based on the image provided, here is a concise artistic prompt for an AI image generator:\n\n**\"A cinematic game art composite: Top half features a close-up of a handsome xianxia warrior in dark textured armor with a glowing green magical spark at his fingertip; bottom half shows a wide third-person view of the warrior standing in a dark subterranean cavern before a pulsating, red organic gateway. High-fidelity 3D render, moody volumetric lighting, epic fantasy aesthetic.\"**",
+    "url": "https://raw.githubusercontent.com/lenzcomvth/OpenNana-Images/main/images/Folder_007/img_1768468145966_Based_on_the_image_provided__here_is_a_concise_art.jpg",
+    "meta_url": "https://raw.githubusercontent.com/lenzcomvth/OpenNana-Images/main/images/Folder_007/img_1768468145966_Based_on_the_image_provided__here_is_a_concise_art.json",
+    "timestamp": "2026-01-15T09:09:08.468Z",
+    "width": 0,
+    "height": 0,
+    "folder": "Folder_007"
+  },
+  {
     "id": "img_1768467977786",
     "prompt": "Photorealistic merge. The person from REFERENCE 2 wearing the EXACT clothing from REFERENCE 1. High fashion studio quality, preserve person identity.",
     "url": "https://raw.githubusercontent.com/lenzcomvth/OpenNana-Images/main/images/Folder_007/img_1768467975388_Photorealistic_merge__The_person_from_REFERENCE_2_.jpg",
