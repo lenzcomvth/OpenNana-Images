@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="GPT Auto Register — Hệ thống tự động đăng ký tài khoản ChatGPT bởi Dạ Hành Studio">
+    <title>GPT Auto Register — Dạ Hành Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===== SIDEBAR ===== -->
+    <aside class="sidebar">
+
+        <!-- Brand -->
+        <div class="brand">
+            <div class="brand-icon">🌙</div>
+            <div class="brand-name">Dạ Hành Studio</div>
+            <div class="brand-sub">GPT Auto Register v2</div>
+            <div class="brand-divider"></div>
+        </div>
+
+        <!-- Navigation -->
+        <nav class="nav-menu">
+            <div class="nav-section-label">Điều hướng</div>
+            <div class="nav-item active" id="nav-dashboard" onclick="switchTab('dashboard')">
+                <span class="nav-icon">📊</span>
+                Bảng Điều Khiển
+            </div>
+            <div class="nav-item" id="nav-accounts" onclick="switchTab('accounts')">
+                <span class="nav-icon">👥</span>
+                Quản Lý Tài Khoản
+            </div>
+        </nav>
+
+        <!-- Task Control -->
+        <div class="control-box">
+            <div class="control-header">Điều Khiển Tác Vụ</div>
+
+            <div class="ctrl-row">
+                <label class="ctrl-label" for="targetCount">Số lượng đăng ký</label>
+                <input type="number" id="targetCount" class="ctrl-input" value="1" min="1" max="50" placeholder="1">
+            </div>
+
+            <button id="btnStart" class="btn btn-primary" onclick="startTask()">
+                <span>🚀</span> Khởi Động
+            </button>
+            <button id="btnStop" class="btn btn-danger hidden" onclick="stopTask()">
+                <span>🛑</span> Dừng Tác Vụ
+            </button>
+        </div>
+
+        <!-- Footer -->
+        <div class="sidebar-footer">
+            <strong>Dạ Hành Studio</strong><br>
+            © 2026 — Đã đăng ký bản quyền
+        </div>
+
+    </aside>
+
+    <!-- ===== MAIN ===== -->
+    <main class="main-view">
+
+        <!-- Header -->
+        <header class="page-header">
+            <h1 class="page-title">
+                <span>Bảng</span> Điều Khiển
+            </h1>
+            <div style="display:flex; align-items:center; gap:12px;">
+                <span class="last-update" id="lastUpdate">--:--:--</span>
+                <div class="status-badge">
+                    <span class="status-dot" id="statusDot"></span>
+                    <span id="statusText">Hệ thống chờ</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- ===== DASHBOARD TAB ===== -->
+        <div id="view-dashboard" class="view-section active">
+
+            <!-- Stats Cards -->
+            <div class="stats-grid">
+
+                <div class="stat-card">
+                    <span class="stat-icon">⚡</span>
+                    <div class="stat-label">Bước Hiện Tại</div>
+                    <div class="stat-value action-val" id="valAction">Chờ khởi động...</div>
+                </div>
+
+                <div class="stat-card">
+                    <span class="stat-icon">✅</span>
+                    <div class="stat-label">Thành Công</div>
+                    <div class="stat-value green" id="valSuccess">0</div>
+                </div>
+
+                <div class="stat-card">
+                    <span class="stat-icon">❌</span>
+                    <div class="stat-label">Thất Bại</div>
+                    <div class="stat-value red" id="valFail">0</div>
+                </div>
+
+                <div class="stat-card">
+                    <span class="stat-icon">🗄️</span>
+                    <div class="stat-label">Tổng Kho</div>
+                    <div class="stat-value blue" id="valInventory">0</div>
+                </div>
+
+            </div>
+
+            <!-- Monitor + Log split -->
+            <div class="split-view">
+
+                <!-- Live Monitor -->
+                <div class="panel">
+                    <div class="panel-header">
+                        <div class="panel-title">
+                            <span class="panel-title-icon">📺</span>
+                            Màn Hình Thực
+                        </div>
+                        <div style="display: flex; gap: 8px; align-items: center;">
+                            <button id="btnToggleBrowser" class="action-btn hidden" onclick="toggleBrowser()">
+                                <span>👻</span> Ẩn Trình Duyệt
+                            </button>
+                            <span class="status-pill neutral" id="monitorStatus">OFFLINE</span>
+                        </div>
+                    </div>
+                    <div class="monitor-body">
+                        <img id="liveMonitor" class="monitor-img hidden" src="" alt="Màn hình trình duyệt tự động">
+                        <div id="noSignal" class="monitor-nosignal">
+                            <div class="monitor-nosignal-icon">📡</div>
+                            <span>Đang chờ tín hiệu...</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- System Log -->
+                <div class="panel">
+                    <div class="panel-header">
+                        <div class="panel-title">
+                            <span class="panel-title-icon">⚡</span>
+                            Nhật Ký Hệ Thống
+                        </div>
+                        <button class="action-btn" onclick="clearLogs()">Xóa</button>
+                    </div>
+                    <div class="log-body" id="logContainer">
+                        <div class="log-placeholder">&gt; Sẵn sàng nhận lệnh...</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- ===== ACCOUNTS TAB ===== -->
+        <div id="view-accounts" class="view-section">
+            <div class="accounts-panel">
+
+                <div class="accounts-toolbar">
+                    <input type="text" id="searchInput" class="search-input ctrl-input" placeholder="🔍  Tìm email..."
+                        onkeyup="filterAccounts()">
+                    <button class="action-btn" onclick="loadAccounts()">🔄 Làm Mới</button>
+                </div>
+
+                <div class="table-container">
+                    <table id="accountsTable">
+                        <thead>
+                            <tr>
+                                <th>Email Tài Khoản</th>
+                                <th>Mật Khẩu</th>
+                                <th>Trạng Thái</th>
+                                <th>Thời Gian</th>
+                            </tr>
+                        </thead>
+                        <tbody id="accountTableBody">
+                            <!-- Dữ liệu tự động nạp -->
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
