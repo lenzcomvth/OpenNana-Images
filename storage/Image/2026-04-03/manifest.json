@@ -1,5 +1,21 @@
 [
   {
+    "id": "gh_1775192540483",
+    "storage": "github",
+    "category": "Image",
+    "date_folder": "2026-04-03",
+    "path": "storage/Image/2026-04-03/file_1775192539848_question_image_page67_img5.png",
+    "url": "https://raw.githubusercontent.com/lenzcomvth/OpenNana-Images/main/storage/Image/2026-04-03/file_1775192539848_question_image_page67_img5.png",
+    "file_name": "file_1775192539848_question_image_page67_img5.png",
+    "mime_type": "image/png",
+    "prompt": "question image page67_img5",
+    "timestamp": "2026-04-03T05:02:20.483Z",
+    "metadata": {
+      "source": "dangthanh-question-images"
+    },
+    "meta_url": "https://raw.githubusercontent.com/lenzcomvth/OpenNana-Images/main/storage/Image/2026-04-03/file_1775192539848_question_image_page67_img5.json"
+  },
+  {
     "id": "gh_1775192534221",
     "storage": "github",
     "category": "Image",
