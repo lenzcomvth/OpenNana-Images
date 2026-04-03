@@ -1,5 +1,21 @@
 [
   {
+    "id": "gh_1775245057804",
+    "storage": "github",
+    "category": "Image",
+    "date_folder": "2026-04-04",
+    "path": "storage/Image/2026-04-04/file_1775245056738_question_image_page100_img1.png",
+    "url": "https://raw.githubusercontent.com/lenzcomvth/OpenNana-Images/main/storage/Image/2026-04-04/file_1775245056738_question_image_page100_img1.png",
+    "file_name": "file_1775245056738_question_image_page100_img1.png",
+    "mime_type": "image/png",
+    "prompt": "question image page100_img1",
+    "timestamp": "2026-04-03T19:37:37.804Z",
+    "metadata": {
+      "source": "dangthanh-question-images"
+    },
+    "meta_url": "https://raw.githubusercontent.com/lenzcomvth/OpenNana-Images/main/storage/Image/2026-04-04/file_1775245056738_question_image_page100_img1.json"
+  },
+  {
     "id": "gh_1775208538083",
     "storage": "github",
     "category": "Files",
@@ -24,7 +40,7 @@
     "url": "https://raw.githubusercontent.com/lenzcomvth/OpenNana-Images/main/storage/Files/2026-04-03/file_1775208488841_document_QCVN_012011BCT_Quy_chuan_Ky_thuat_quoc_gia_ve_an_to.docx",
     "file_name": "file_1775208488841_document_QCVN_012011BCT_Quy_chuan_Ky_thuat_quoc_gia_ve_an_to.docx",
     "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-    "prompt": "document QCVN 012011BCT Quy chuáº©n Ká»¹ thuáº­t quá»c gia vá» an toÃ n trong khai thÃ¡c than háº§m lÃ²",
+    "prompt": "document QCVN 012011BCT Quy chuÃ¡ÂºÂ©n KÃ¡Â»Â¹ thuÃ¡ÂºÂ­t quÃ¡Â»Âc gia vÃ¡Â»Â an toÃÂ n trong khai thÃÂ¡c than hÃ¡ÂºÂ§m lÃÂ²",
     "timestamp": "2026-04-03T09:28:09.350Z",
     "metadata": {
       "source": "dangthanh-documents-admin"
