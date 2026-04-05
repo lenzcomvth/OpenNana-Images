@@ -1,0 +1,15 @@
+[
+  {
+    "id": "gh_1775396450400",
+    "storage": "github",
+    "category": "Files",
+    "date_folder": "2026-04-05",
+    "path": "storage/Files/2026-04-05/file_1775396449687_smoke_deploy_test.txt",
+    "url": "https://raw.githubusercontent.com/lenzcomvth/OpenNana-Images/main/storage/Files/2026-04-05/file_1775396449687_smoke_deploy_test.txt",
+    "file_name": "file_1775396449687_smoke_deploy_test.txt",
+    "mime_type": "text/plain",
+    "prompt": "smoke deploy test",
+    "timestamp": "2026-04-05T13:40:50.400Z",
+    "meta_url": "https://raw.githubusercontent.com/lenzcomvth/OpenNana-Images/main/storage/Files/2026-04-05/file_1775396449687_smoke_deploy_test.json"
+  }
+]
