@@ -1,5 +1,18 @@
 [
   {
+    "id": "gh_1775396450400",
+    "storage": "github",
+    "category": "Files",
+    "date_folder": "2026-04-05",
+    "path": "storage/Files/2026-04-05/file_1775396449687_smoke_deploy_test.txt",
+    "url": "https://raw.githubusercontent.com/lenzcomvth/OpenNana-Images/main/storage/Files/2026-04-05/file_1775396449687_smoke_deploy_test.txt",
+    "file_name": "file_1775396449687_smoke_deploy_test.txt",
+    "mime_type": "text/plain",
+    "prompt": "smoke deploy test",
+    "timestamp": "2026-04-05T13:40:50.400Z",
+    "meta_url": "https://raw.githubusercontent.com/lenzcomvth/OpenNana-Images/main/storage/Files/2026-04-05/file_1775396449687_smoke_deploy_test.json"
+  },
+  {
     "id": "gh_1775280866255",
     "storage": "github",
     "category": "Files",
@@ -37,7 +50,7 @@
     "url": "https://raw.githubusercontent.com/lenzcomvth/OpenNana-Images/main/storage/Files/2026-04-03/file_1775208488841_document_QCVN_012011BCT_Quy_chuan_Ky_thuat_quoc_gia_ve_an_to.docx",
     "file_name": "file_1775208488841_document_QCVN_012011BCT_Quy_chuan_Ky_thuat_quoc_gia_ve_an_to.docx",
     "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-    "prompt": "document QCVN 012011BCT Quy chuÃ¡ÂºÂ©n KÃ¡Â»Â¹ thuÃ¡ÂºÂ­t quÃ¡Â»Âc gia vÃ¡Â»Â an toÃÂ n trong khai thÃÂ¡c than hÃ¡ÂºÂ§m lÃÂ²",
+    "prompt": "document QCVN 012011BCT Quy chuÃÂ¡ÃÂºÃÂ©n KÃÂ¡ÃÂ»ÃÂ¹ thuÃÂ¡ÃÂºÃÂ­t quÃÂ¡ÃÂ»ÃÂc gia vÃÂ¡ÃÂ»ÃÂ an toÃÂÃÂ n trong khai thÃÂÃÂ¡c than hÃÂ¡ÃÂºÃÂ§m lÃÂÃÂ²",
     "timestamp": "2026-04-03T09:28:09.350Z",
     "metadata": {
       "source": "dangthanh-documents-admin"
