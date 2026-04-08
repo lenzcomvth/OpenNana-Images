@@ -1,5 +1,21 @@
 [
   {
+    "id": "gh_1775637131444",
+    "storage": "github",
+    "category": "Files",
+    "date_folder": "2026-04-08",
+    "path": "storage/Files/2026-04-08/file_1775637130577_document_Ke_hoach_to_chuc_hoi_thi_tho_gioi_cap_Cong_ty_nam_2.pdf",
+    "url": "https://raw.githubusercontent.com/lenzcomvth/OpenNana-Images/main/storage/Files/2026-04-08/file_1775637130577_document_Ke_hoach_to_chuc_hoi_thi_tho_gioi_cap_Cong_ty_nam_2.pdf",
+    "file_name": "file_1775637130577_document_Ke_hoach_to_chuc_hoi_thi_tho_gioi_cap_Cong_ty_nam_2.pdf",
+    "mime_type": "application/pdf",
+    "prompt": "document Kế hoạch tổ chức hội thi thợ giỏi cấp Công ty năm 2026",
+    "timestamp": "2026-04-08T08:32:11.444Z",
+    "metadata": {
+      "source": "dangthanh-documents-admin"
+    },
+    "meta_url": "https://raw.githubusercontent.com/lenzcomvth/OpenNana-Images/main/storage/Files/2026-04-08/file_1775637130577_document_Ke_hoach_to_chuc_hoi_thi_tho_gioi_cap_Cong_ty_nam_2.json"
+  },
+  {
     "id": "gh_1775396450400",
     "storage": "github",
     "category": "Files",
@@ -50,7 +66,7 @@
     "url": "https://raw.githubusercontent.com/lenzcomvth/OpenNana-Images/main/storage/Files/2026-04-03/file_1775208488841_document_QCVN_012011BCT_Quy_chuan_Ky_thuat_quoc_gia_ve_an_to.docx",
     "file_name": "file_1775208488841_document_QCVN_012011BCT_Quy_chuan_Ky_thuat_quoc_gia_ve_an_to.docx",
     "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-    "prompt": "document QCVN 012011BCT Quy chuÃÂ¡ÃÂºÃÂ©n KÃÂ¡ÃÂ»ÃÂ¹ thuÃÂ¡ÃÂºÃÂ­t quÃÂ¡ÃÂ»ÃÂc gia vÃÂ¡ÃÂ»ÃÂ an toÃÂÃÂ n trong khai thÃÂÃÂ¡c than hÃÂ¡ÃÂºÃÂ§m lÃÂÃÂ²",
+    "prompt": "document QCVN 012011BCT Quy chuÃÂÃÂ¡ÃÂÃÂºÃÂÃÂ©n KÃÂÃÂ¡ÃÂÃÂ»ÃÂÃÂ¹ thuÃÂÃÂ¡ÃÂÃÂºÃÂÃÂ­t quÃÂÃÂ¡ÃÂÃÂ»ÃÂÃÂc gia vÃÂÃÂ¡ÃÂÃÂ»ÃÂÃÂ an toÃÂÃÂÃÂÃÂ n trong khai thÃÂÃÂÃÂÃÂ¡c than hÃÂÃÂ¡ÃÂÃÂºÃÂÃÂ§m lÃÂÃÂÃÂÃÂ²",
     "timestamp": "2026-04-03T09:28:09.350Z",
     "metadata": {
       "source": "dangthanh-documents-admin"
