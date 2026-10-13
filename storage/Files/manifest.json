@@ -1,5 +1,21 @@
 [
   {
+    "id": "gh_1791885193693",
+    "storage": "github",
+    "category": "Files",
+    "date_folder": "2026-10-13",
+    "path": "storage/Files/2026-10-13/file_1791885192306_document_E_CUONG_ON_TAP_AO_LO.docx",
+    "url": "https://raw.githubusercontent.com/lenzcomvth/OpenNana-Images/main/storage/Files/2026-10-13/file_1791885192306_document_E_CUONG_ON_TAP_AO_LO.docx",
+    "file_name": "file_1791885192306_document_E_CUONG_ON_TAP_AO_LO.docx",
+    "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "prompt": "document ĐỀ CƯƠNG ÔN TẬP ĐÀO LÒ",
+    "timestamp": "2026-10-13T09:53:13.693Z",
+    "metadata": {
+      "source": "dangthanh-documents-admin"
+    },
+    "meta_url": "https://raw.githubusercontent.com/lenzcomvth/OpenNana-Images/main/storage/Files/2026-10-13/file_1791885192306_document_E_CUONG_ON_TAP_AO_LO.json"
+  },
+  {
     "id": "gh_1791714992290",
     "storage": "github",
     "category": "Files",
@@ -8,7 +24,7 @@
     "url": "https://raw.githubusercontent.com/lenzcomvth/OpenNana-Images/main/storage/Files/2026-10-11/file_1791714991156_document_E_CUONG_ON_TAP_KHAI_THAc.doc",
     "file_name": "file_1791714991156_document_E_CUONG_ON_TAP_KHAI_THAc.doc",
     "mime_type": "application/msword",
-    "prompt": "document ĐỀ CƯƠNG ÔN TẬP KHAI THAc",
+    "prompt": "document Äá» CÆ¯Æ NG ÃN Táº¬P KHAI THAc",
     "timestamp": "2026-10-11T10:36:32.290Z",
     "metadata": {
       "source": "dangthanh-documents-admin"
@@ -24,7 +40,7 @@
     "url": "https://raw.githubusercontent.com/lenzcomvth/OpenNana-Images/main/storage/Files/2026-04-08/file_1775637130577_document_Ke_hoach_to_chuc_hoi_thi_tho_gioi_cap_Cong_ty_nam_2.pdf",
     "file_name": "file_1775637130577_document_Ke_hoach_to_chuc_hoi_thi_tho_gioi_cap_Cong_ty_nam_2.pdf",
     "mime_type": "application/pdf",
-    "prompt": "document Káº¿ hoáº¡ch tá» chá»©c há»i thi thá»£ giá»i cáº¥p CÃ´ng ty nÄm 2026",
+    "prompt": "document KÃ¡ÂºÂ¿ hoÃ¡ÂºÂ¡ch tÃ¡Â»Â chÃ¡Â»Â©c hÃ¡Â»Âi thi thÃ¡Â»Â£ giÃ¡Â»Âi cÃ¡ÂºÂ¥p CÃÂ´ng ty nÃÂm 2026",
     "timestamp": "2026-04-08T08:32:11.444Z",
     "metadata": {
       "source": "dangthanh-documents-admin"
@@ -82,7 +98,7 @@
     "url": "https://raw.githubusercontent.com/lenzcomvth/OpenNana-Images/main/storage/Files/2026-04-03/file_1775208488841_document_QCVN_012011BCT_Quy_chuan_Ky_thuat_quoc_gia_ve_an_to.docx",
     "file_name": "file_1775208488841_document_QCVN_012011BCT_Quy_chuan_Ky_thuat_quoc_gia_ve_an_to.docx",
     "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-    "prompt": "document QCVN 012011BCT Quy chuÃÂÃÂÃÂÃÂ¡ÃÂÃÂÃÂÃÂºÃÂÃÂÃÂÃÂ©n KÃÂÃÂÃÂÃÂ¡ÃÂÃÂÃÂÃÂ»ÃÂÃÂÃÂÃÂ¹ thuÃÂÃÂÃÂÃÂ¡ÃÂÃÂÃÂÃÂºÃÂÃÂÃÂÃÂ­t quÃÂÃÂÃÂÃÂ¡ÃÂÃÂÃÂÃÂ»ÃÂÃÂÃÂÃÂc gia vÃÂÃÂÃÂÃÂ¡ÃÂÃÂÃÂÃÂ»ÃÂÃÂÃÂÃÂ an toÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ n trong khai thÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¡c than hÃÂÃÂÃÂÃÂ¡ÃÂÃÂÃÂÃÂºÃÂÃÂÃÂÃÂ§m lÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ²",
+    "prompt": "document QCVN 012011BCT Quy chuÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¡ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂºÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ©n KÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¡ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ»ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¹ thuÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¡ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂºÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ­t quÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¡ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ»ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂc gia vÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¡ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ»ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ an toÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ n trong khai thÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¡c than hÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ¡ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂºÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ§m lÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂ²",
     "timestamp": "2026-04-03T09:28:09.350Z",
     "metadata": {
       "source": "dangthanh-documents-admin"
